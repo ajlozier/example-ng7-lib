@@ -3,5 +3,8 @@
   "dest": "../../dist/example-ng7-lib",
   "lib": {
     "entryFile": "src/public_api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies" : [
+    "@ng-bootstrap/ng-bootstrap"
+  ]
 }
