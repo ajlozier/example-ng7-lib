@@ -6,6 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch-lib" : "ng build example-ng7-lib --watch",
+    "build_lib": "ng build example-ng7-lib",
+    "npm_pack": "cd dist/example-ng7-lib && npm pack",
+    "package": "npm run build_lib && npm run npm_pack",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
